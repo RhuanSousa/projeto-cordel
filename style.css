@@ -11,12 +11,15 @@
     text-decoration: none;
 }
 
+body {
+    height: 100vh;
+}
+
 header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 3em;
-    margin-bottom: 7em;
+    padding: 3.1em;
 }
 
 header h1 {
@@ -25,7 +28,6 @@ header h1 {
     font-variant: small-caps;
     font-size: 95px;
     font-weight: bold;
-    line-height: 79,8;
 }
 
 header h2 {
@@ -40,8 +42,25 @@ header h2 > a {
 }
 
 section {
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 3em;
     font-family: 'Sriracha', cursive;
     font-size: 33px;
-    text-align: left;
-    padding: 1em 2em;
+    line-height: 2em;
+    background-attachment: fixed;
+    box-shadow: 1;
+}
+
+.img1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+.img1 > p {
+    color: white;
+    padding: 5px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.486);
 }
